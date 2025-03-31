@@ -155,9 +155,13 @@ img {
   padding-bottom: 100px;
 }
 
-.footer-container {
+.page-footer .container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.footer-info {
+  margin-right: 120px;
 }
 
 .footer-text {
@@ -168,6 +172,10 @@ img {
 }
 
 .social-footertxt {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
 }
@@ -183,8 +191,9 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
+  max-width: 1440px;
   background-repeat: no-repeat;
-  background-size: 1440px auto;
+  background-size: cover;
   background-position: center;
 }
 
@@ -215,8 +224,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   min-width: 169px;
   height: 56px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -351,7 +359,7 @@ img {
   gap: 24px;
 }
 
-.social-item {
+.social-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -359,18 +367,18 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
   display: block;
-  fill: #fff;
+  fill: #f4f4fd;
   width: 16px;
   height: 16px;
 }
 
-.team .social-item:hover {
+.team .social-link:hover,
+.team .social-link:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
@@ -380,7 +388,8 @@ img {
   min-height: 24px;
 }
 
-.page-footer .social-item:hover {
+.page-footer .social-link:hover,
+.page-footer .social-link:focus {
   background-color: #31d0aa;
   cursor: pointer;
 }
@@ -437,7 +446,7 @@ img {
   padding: 40px 32px;
   height: 100%;
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-description {
