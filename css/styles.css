@@ -259,7 +259,7 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.feature-icoform {
+.feature-icolink {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -422,6 +422,10 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
+.portfolio-item:first-child {
+  transition: transform box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .portfolio-item:hover .portfolio-item-txt {
   transform: translateY(0);
 }
@@ -446,7 +450,7 @@ img {
   padding: 40px 32px;
   height: 100%;
   transform: translateY(100%);
-  transition: transform box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-description {
