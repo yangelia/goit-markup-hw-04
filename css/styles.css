@@ -99,9 +99,6 @@ img {
   gap: 40px;
 }
 
-.nav-item {
-}
-
 .nav-link {
   font-weight: 500;
   line-height: 1.5;
@@ -134,9 +131,6 @@ img {
 .contacts-list {
   display: flex;
   gap: 40px;
-}
-
-.contacts-item {
 }
 
 .contacts-link {
@@ -194,9 +188,6 @@ img {
   background-position: center;
 }
 
-.hero .container {
-}
-
 .hero-title {
   max-width: 496px;
   margin: 0 auto;
@@ -236,9 +227,6 @@ img {
 .feature {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.feature .container {
 }
 
 .visually-hidden {
@@ -321,9 +309,6 @@ img {
   gap: 24px;
 }
 
-.team .container {
-}
-
 .team-description {
   padding-left: 16px;
   padding-right: 16px;
@@ -403,9 +388,6 @@ img {
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.portfolio .container {
 }
 
 .portfolio-title {
